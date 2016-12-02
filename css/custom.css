@@ -140,6 +140,15 @@
 ul li {
     list-style: none;
 }
+.btn-default {
+  background-color: #454244;
+    color: white;
+    transition: all .5s;
+    border-radius: 20%;
+}
+.btn-default:hover{
+   color: red;
+}
 
 /*ABOUT*/
 
