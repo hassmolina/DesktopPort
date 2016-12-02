@@ -2,21 +2,17 @@
 
 $(document).ready(function(){
 
+	resize();
 
-
-resize();
-
-	// $(window).resize(function() {
-	// 	console.log("RESIZE");
-	// 	resize();
-	// });
+	$(window).resize(function() {
+		console.log("RESIZE");
+		resize();
+	});
 
 });
 function pageRedirect() {
-		window.location.href = "https://hassmolina.github.io/responsivePortfolio/";
-
+		window.location.href = "https://hassmolina.github.io/responsivePortfolio/"
 }
-
 
 
 function resize() {
@@ -35,12 +31,8 @@ function resize() {
   } else {
 		$(".mobile").hide();
 		$(".tablet").hide();
-		$(".desktop").show(pageRedirectOriginal);
+		$(".desktop").show();
 	}
-}
-function pageRedirectOriginal() {
-		window.location.href = "https://hassmolina.github.io/DesktopPort/";
-
 }
 //
 // 	var altura = $('body').height() + 'px';
