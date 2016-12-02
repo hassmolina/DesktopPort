@@ -22,7 +22,7 @@
     height: 40px;
     z-index: 70;
     width: 100%;
-    margin-left: 30%;
+    margin-left:27%;
 
   }
   /*CONTACT*/
@@ -140,11 +140,13 @@
 ul li {
     list-style: none;
 }
-.btn-default {
+.btn-color{
   background-color: #454244;
-    color: white;
-    transition: all .5s;
-    border-radius: 20%;
+color: white;
+transition: all .5s;
+border: none !important;
+padding: 3%;
+border-radius: 48%;
 }
 .btn-default:hover{
    color: red;

@@ -13,7 +13,6 @@ resize();
 });
 function pageRedirect() {
 		window.location.href = "https://hassmolina.github.io/responsivePortfolio/";
-
 }
 
 
