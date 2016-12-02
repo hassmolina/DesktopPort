@@ -252,7 +252,10 @@ ul li {
 .box.clicked.work{
   background-image: url("../icons/bussines.png");
   background-size: cover;
+  border: 10px solid #B50412;
+  color: transparent;
 }
+
 .work {
     top: 10%;
     left: 0;
@@ -261,6 +264,7 @@ ul li {
 .box.clicked.projects{
   background-image: url("../icons/bullybot.png");
   background-size: cover;
+  border: 10px solid black;
 }
 .projects {
     top: 10%;
@@ -270,6 +274,7 @@ ul li {
 .box.clicked.about{
   background-image: url("../icons/xquarks.png");
   background-size: cover;
+  border: 10px solid #707070;
 }
 .about {
     top: 57%;
@@ -279,6 +284,7 @@ ul li {
 .box.clicked.contact{
   background-image: url("../icons/farolito.png");
   background-size: cover;
+  border: 10px solid white;
 }
 .contact {
     top: 57%;
