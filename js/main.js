@@ -2,17 +2,20 @@
 
 $(document).ready(function(){
 
-	resize();
 
-	$(window).resize(function() {
-		console.log("RESIZE");
-		resize();
-	});
+
+resize();
+	// $(window).resize(function() {
+	// 	console.log("RESIZE");
+	// 	resize();
+	// });
 
 });
 function pageRedirect() {
-		window.location.href = "https://hassmolina.github.io/responsivePortfolio/"
+		window.location.href = "https://hassmolina.github.io/responsivePortfolio/";
+
 }
+
 
 
 function resize() {
