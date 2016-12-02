@@ -10,13 +10,16 @@ $(document).ready(function(){
 	});
 
 });
+function pageRedirect() {
+		window.location.href = "https://hassmolina.github.io/responsivePortfolio/"
+}
 
 
 function resize() {
 
 	var tam = $("body").width();
 	if ( tam  > 0 && tam < 480) {
-		$(".mobile").show();
+		$(".mobile").show(pageRedirect);
 		$(".tablet").hide();
 		$(".desktop").hide();
     //$("html").css("overflow-y", "scroll");
